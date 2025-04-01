@@ -2,9 +2,17 @@
 
 + Early Game (Openings)
 + Classic Openings
-  - Alekhine Defense
-   - This is when Black plays an aggressive Kf6 to counter whites king pawn opening (e4)
-  - Benko
+#text(blue)[
+  - Alekhine Defense]
+    - This is when Black plays an aggressive Kf6 to counter whites king pawn opening (e4)
+#(text(blue)[
+ - Benko
+])
+    / Moves: d4 Nf6 2.c4 c5 3.d5 b5
+    _classic slow burn where black gives up pawn for positional advantage_
+    #image("Benko_classic.png")
+    #image("Benko_FullyAccepted.png")
+    _Kill that queen pawn_
   - Benoni
   - Bird
   - Bogo-Indian
@@ -18,7 +26,8 @@
   - KIA
   - KID
   - Kings Fianchetto
-  - Kings Gambit
+#text(orange)[- Kings Gambit]
+    
   - London
   - London
   - Nimzo-Indian
@@ -39,4 +48,3 @@
 + Mid Game
 
 + Late Game
-
