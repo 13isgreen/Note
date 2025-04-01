@@ -8,8 +8,18 @@
   - 
   #show heading: set text(navy)
   = How it works
+  / The Tape Part: 
+  Consists of the input string then an infinite number of blanks, there is also a head pointer like on a linked list in order to traverse the tape.
+  if you are the leftmost part of the tape and recieve the instruction to move left it just stays at the same position.
+  #image("turingSet.png")
+  Read Symbol under Head, choose to update the symbol under the head, move the head left or right
+ / The Control Portion:
+ #image("controlTuring.png")
+ Operations between each node in the Control portion are synataxed similiarly to the PDA (push down automa)
+ #image("sysntax.png")
+ The control portion has two special final states the accept state and the reject state. This just means that the computation can either HALT and accept, HALT and reject, or LOOP infinitly (meaning the machine fails to HALT)
+  = Example 1
 
-   The tape can move 1 unit to the left or right depending on the input
   = Example 
   #show list: set text(gray)
   - $ B = {w\#w | w in {1,0}*}$
@@ -20,7 +30,7 @@
 = Algorithms and the Church-Turing Thesis
 
   #show heading: set text(blue)
-= Decidability
+= Decidabiliy
 
   #show heading: set text(blue)
 = Undecidability & Reducibility (Reduction)
