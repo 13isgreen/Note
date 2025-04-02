@@ -10,7 +10,7 @@
 ])
     / Moves: d4 Nf6 2.c4 c5 3.d5 b5
     _classic slow burn where black gives up pawn for positional advantage_
-    #image("Benko_classic.png")
+    #image("Benko_Classic.png")
     #image("Benko_FullyAccepted.png")
     _Kill that queen pawn_
   - Benoni
